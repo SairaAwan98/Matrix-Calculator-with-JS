@@ -1,0 +1,80 @@
+@font-face {
+    font-family: dancing;
+    src: url(fonts/DancingScript-VariableFont_wght.ttf);
+}
+#top{
+    border-radius: 0 0 50% 50% / 60%;
+    border: 1px groove purple;
+    text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+    background: linear-gradient(to top, #e1eec3, #f05053);
+}
+#main{
+
+    font-size: 80px;
+    font-weight: bolder;
+	margin-bottom: 30px;
+    font-family: dancing,cursive;
+    margin-top: 50px;
+    background-image:linear-gradient(to bottom, #333333, #dd1818) ;
+    background-size: 100%;
+    background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+body{
+    text-align: center;
+}
+#proceed{
+    background-image:linear-gradient(to bottom, #333333, #dd1818) ;
+    font-size: 20px;
+    padding: 5px;
+    color: whitesmoke;  
+}
+#retry{
+    background-image:linear-gradient(to bottom, #333333, #dd1818) ;
+    font-size: 20px;
+    padding: 5px;
+    color: whitesmoke;  
+}
+#one{
+    border: 1px solid black;
+    box-shadow:11px 11px 8px -2px rgba(0,0,0,0.39);
+    width: 50%;
+    height: fit-content;
+    margin: auto;
+    border-radius: 10px;
+    display: none;
+}
+#two{
+    border: 1px solid black;
+    box-shadow:11px 11px 8px -2px rgba(0,0,0,0.39);
+    width: 50%;
+    height: fit-content;
+    margin: auto;
+    border-radius: 10px;
+    display: none;
+}
+#solution{
+    border: 1px solid black;
+    box-shadow:11px 11px 8px -2px rgba(0,0,0,0.39);
+    width: 50%;
+    height: fit-content;
+    margin: auto;
+    border-radius: 10px;
+    display: none;
+}
+#sol{
+    background-image:linear-gradient(to bottom, #333333, #dd1818) ;
+    font-size: 20px;
+    padding: 5px;
+    color: whitesmoke; 
+}
+
